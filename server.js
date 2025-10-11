@@ -10,4 +10,8 @@ app.get("/hi", (req, res) => {
   return res.send("<h2>Hello universe</h2>");
 });
 
+app.get("/bye", (req, res) => {
+  return res.send("<h1>Bye world!</h1>");
+});
+
 app.listen(5000, () => console.log("server is running"));
