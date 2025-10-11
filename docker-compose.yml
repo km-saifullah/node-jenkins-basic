@@ -2,7 +2,8 @@ version: "3.8"
 
 services:
   app:
-    build: .
+    # build: .
+    image: monmoy377/node-app:latest
     ports:
       - "5000:5000"
     container_name: node-jenkins
