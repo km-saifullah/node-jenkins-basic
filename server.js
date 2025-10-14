@@ -3,11 +3,11 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  return res.send("<h1>Helllo from the root route</h1>");
+  return res.send("<h1>Welcome from the API</h1>");
 });
 
-app.get("/hi", (req, res) => {
-  return res.send("<h2>Hello universe</h2>");
+app.get("/sayhi", (req, res) => {
+  return res.send("<h2>Hello World</h2>");
 });
 
 app.get("/bye", (req, res) => {
