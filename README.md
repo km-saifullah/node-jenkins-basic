@@ -8,6 +8,8 @@ This repository contains a Node.js application with a complete CI/CD pipeline se
 ![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white)
 
+![architecture diagram](./img/architecture.png)
+
 ## Project Structure
 
 ```bash
